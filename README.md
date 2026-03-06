@@ -38,10 +38,6 @@ Each solution includes complete working examples, configuration details, and exp
 
 ## Documentation
 
-
-## 📚 FAQ
-
-
 ## License
 
 This project is licensed under the MIT License—see the LICENSE file for details.
