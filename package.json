@@ -1,0 +1,29 @@
+{
+  "name": "genai-code-action",
+  "version": "1.0.0",
+  "description": "A general-purpose GenAI action for GitHub PRs and issues that can answer questions and implement code changes. This action intelligently detects when to activate based on your workflow context—whether responding to @genai mentions, issue assignments, or executing automation tasks with explicit prompts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genaiwithshubham/genai-code-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genaiwithshubham/genai-code-action/issues"
+  },
+  "homepage": "https://github.com/genaiwithshubham/genai-code-action#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.1",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.59.0"
+  }
+}

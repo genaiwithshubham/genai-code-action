@@ -1,4 +1,4 @@
-# genai Code Action
+# Genai Code Action
 
 A general-purpose GenAI action for GitHub PRs and issues that can answer questions and implement code changes. This action intelligently detects when to activate based on your workflow context—whether responding to @genai mentions, issue assignments, or executing automation tasks with explicit prompts. 
 
