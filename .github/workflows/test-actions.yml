@@ -9,9 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v5
+
       - name: Hello world action step
+        uses: ./ # Uses an action in the root directory
         id: hello
-        uses: ./
         with:
           who-to-greet: Mona the Octocat
 
